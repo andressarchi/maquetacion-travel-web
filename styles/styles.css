@@ -9,11 +9,11 @@
  body{
     padding-left: 3rem;
     padding-right: 3rem;
-    background-color:#d4eaff ;
+    background-color:#f3e9fe ;
 }
 header{
     width: auto;
-    background-color: #a55def;
+    background-color:#be8af6;
     height: auto;
   
 } 
@@ -60,6 +60,9 @@ nav > ul > li {
     
 }
 
-.icon {
-   
+.cityregistration{
+    background-color: #e8d7fd;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
 }
