@@ -159,10 +159,10 @@ footer{
 }
 
 @media screen and (max-width: 446px) {
-    .cityregistration>div  {
-        display: flex;
-        justify-content: space-evenly;
-    }.cityregistration > #cities{
+    .cityregistration> #people {
+      margin-right: 2rem;
+    }
+    .cityregistration > #cities{
         margin-right: 10rem;
         margin-bottom:1rem ;
     }.cityregistration > #day{
