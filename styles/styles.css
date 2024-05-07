@@ -157,3 +157,27 @@ footer{
    height: 3rem;
    width: 3rem;
 }
+
+@media screen and (max-width: 446px) {
+    .cityregistration>div  {
+        display: flex;
+        justify-content: space-evenly;
+    }.cityregistration > #cities{
+        margin-right: 10rem;
+        margin-bottom:1rem ;
+    }.cityregistration > #day{
+        margin-right: 10rem;
+        margin-bottom:1rem 
+    }
+    header{
+        height: 8rem;
+    }
+    nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 814px){
+    nav{
+        display: none;
+    }
+}
