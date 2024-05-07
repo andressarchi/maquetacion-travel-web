@@ -6,14 +6,10 @@
     padding: 0;
 }
 
- body{
-    padding-left: 3rem;
-    padding-right: 3rem;
-    background-color:#f3e9fe ;
-}
+
 header{
-    width: auto;
-    background-color:#be8af6;
+    width: 100vw;
+    background-color:#e3dac9;
     height: auto;
   
 } 
@@ -26,7 +22,7 @@ header > div {
 }
 
 header > div > h1 {
-    color: #ffffff;
+    color: #000000;
     font-family: "Oswald", sans-serif;
     font-weight: 650;
     font-style: normal;
@@ -36,32 +32,50 @@ header> div> img {
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 1px #b3dcff;
+    box-shadow: 0px 0px 20px 10px #f9f7f3;
     margin-top: 40px;
 }
-
+nav{
+   height: 3rem;
+   justify-content: center;
+   align-self: center;
+}
 nav > ul {
     list-style: none;
     padding: 0;
     margin-left: 9rem;
     flex-wrap: wrap;
+    
+}
+hr{
+    color: bisque;
+    margin: 1rem;
 }
 
 nav > ul > li {
-    text-decoration: underline #fafafa;
+    text-decoration: underline #090909;
     display: inline;
-    margin: 1.5rem;
-    color: #fffefe;
+    margin: 1rem;
+    color: #000000;
     font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1.5rem;
-    
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    border: 2px  double;
+    padding: 7px;
+    border-radius: 20px;
+  
+}
+.icon{
+    color: #fff;
+    height: 1rem;
+    width: 1rem;
+    margin: 5px;
 }
 
 .cityregistration{
-    background-color: #e8d7fd;
+    background-color: #f1ede3;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -70,7 +84,7 @@ nav > ul > li {
 }
 select{
     border: none;
-    background-color:#d6b8fa ;
+    background-color:#e3dac9;
     padding: 0.4rem;
     border-radius: 20px;
 }
@@ -78,7 +92,7 @@ input{
     border: none;
     padding: 0.5rem;
     border-radius: 20px;
-    background-color: #d6b8fa;
+    background-color: #e3dac9;
 }
 input:focus{
     border: #d6b8fa;
