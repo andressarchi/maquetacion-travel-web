@@ -159,15 +159,22 @@ footer{
 }
 
 @media screen and (max-width: 446px) {
-    .cityregistration> #people {
+    .cityregistration> input>#people {
       margin-right: 2rem;
+      
     }
-    .cityregistration > #cities{
+    .cityregistration>select > #cities{
         margin-right: 10rem;
         margin-bottom:1rem ;
-    }.cityregistration > #day{
+    }.cityregistration >input> #day{
         margin-right: 10rem;
-        margin-bottom:1rem 
+        margin-bottom:1rem ;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cityregistration{
+        display: flex;
+        flex-direction: column;
     }
     header{
         height: 8rem;
